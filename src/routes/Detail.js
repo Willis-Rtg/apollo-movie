@@ -25,7 +25,8 @@ const GET_MOVIE = gql`
 
 const DetailWrapper = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  padding: 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
